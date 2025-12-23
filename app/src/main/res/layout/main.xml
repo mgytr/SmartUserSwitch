@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  android:orientation="vertical" >
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Main user ID" />
+    <EditText
+    android:id="@+id/user1id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Main user passcode" />
+    <EditText
+    android:id="@+id/user1passcode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Second user ID" />
+    <EditText
+    android:id="@+id/user2id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Second user passcode" />
+    <EditText
+    android:id="@+id/user2passcode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Third user ID" />
+    <EditText
+    android:id="@+id/user3id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Third user passcode" />
+    <EditText
+    android:id="@+id/user3passcode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Fourth user ID" />
+    <EditText
+    android:id="@+id/user4id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Fourth user passcode" />
+    <EditText
+    android:id="@+id/user4passcode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button
+    android:id="@+id/savebutton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save" />
+
+</LinearLayout>

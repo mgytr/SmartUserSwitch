@@ -10,14 +10,14 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ytrsoft"
+        applicationId "mgytr.smartuserswitch"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
 
-    namespace "com.ytrsoft"
+    namespace "mgytr.smartuserswitch"
 
     buildTypes {
         release {
